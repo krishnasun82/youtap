@@ -51,7 +51,7 @@ def downloadVideo(f, resp):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("Usage: python youtap \"<youtube-url>\"")
+        print("Usage: python youtap.py \"<youtube-url>\"")
         exit(1)
     urlname = sys.argv[1].split('&', 1)[0]
     print('Downloading: ' + urlname)
