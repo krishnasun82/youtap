@@ -1,0 +1,5 @@
+Python project to download YouTube video from command line
+
+Usage: python youtap.py "<link-to-youtube-video-page>"
+
+The reason for giving the link in double-quotes is that sometimes the link contain '&'(ampersand), which the UNIX interprets as "run the program in background"
