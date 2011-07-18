@@ -1,6 +1,5 @@
 import re
 import sys
-import unicodedata
 import urllib2
 
 def getVideoUrl(content):
