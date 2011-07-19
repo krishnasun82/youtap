@@ -4,4 +4,7 @@ Author: Sundar Srinivasan, Twitter: @krishnasun
 
 Usage: python youtap.py "<link-to-youtube-video-page>"
 
+License under: Apache License, Version: 2.0
+	(http://www.apache.org/licenses/LICENSE-2.0.html)
+
 The reason for giving the link in double-quotes is that sometimes the link contain '&'(ampersand), which the UNIX interprets as "run the program in background"
