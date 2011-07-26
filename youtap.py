@@ -87,7 +87,7 @@ if __name__ == '__main__':
     title = getTitle(content)
     filename = title + '.flv'
     print('Creating file: ' + filename)
-    f = open(filename, 'w')
+    f = open(filename, 'wb')
     print('Download begins...')
 
     ## Download video
